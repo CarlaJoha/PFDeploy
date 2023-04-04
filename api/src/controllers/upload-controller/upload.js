@@ -31,7 +31,7 @@ const uploadImage = async (urlImages) => {
     });
     // console.log(typeof(url));
     // // The output url
-    console.log(url);
+    // console.log(url);
     return (await result).secure_url;
     // // res.status(200).send("url image cloudinary created");
  
